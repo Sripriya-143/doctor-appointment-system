@@ -1,0 +1,39 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+@media (max-width: 640px) {
+  .navbar-content {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .navbar-left {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 0.5rem;
+  }
+
+  .navbar-link {
+    padding: 0.5rem 0;
+  }
+
+  .navbar-right {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .navbar-user {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+  }
+}

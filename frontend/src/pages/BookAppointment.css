@@ -1,0 +1,88 @@
+.page-container {
+  max-width: 48rem;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.back-button:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.doctor-info-card {
+  margin-bottom: 1.5rem;
+}
+
+.doctor-info-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.doctor-info-avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: #eff6ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.doctor-info-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.doctor-info-specialization {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.doctor-info-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.doctor-info-details p {
+  color: #6b7280;
+}
+
+.detail-label {
+  font-weight: 500;
+  color: #374151;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-hint {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-actions .btn {
+  flex: 1;
+}

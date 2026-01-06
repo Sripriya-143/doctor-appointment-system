@@ -1,0 +1,16 @@
+.doctor-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.form-actions {
+  grid-column: 1 / -1;
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .doctor-form {
+    grid-template-columns: 1fr;
+  }
+}

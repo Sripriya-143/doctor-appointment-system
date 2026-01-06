@@ -1,0 +1,40 @@
+.stats-card-content {
+  flex: 1;
+}
+
+.dashboard-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.dashboard-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.quick-action-card {
+  display: block;
+  padding: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.quick-action-card:hover {
+  border-color: #2563eb;
+  background-color: #eff6ff;
+}
+
+.quick-action-card h3 {
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.quick-action-card p {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
